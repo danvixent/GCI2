@@ -1,0 +1,19 @@
+Inheritance, although aimed at reducing the length and complexity of code 
+can at the same time lead to complexity.
+For instance encapsulation is affected by inheritance, therefore the subclass 
+is reliant on the superclass, if anything changes therein, the subclass might break.
+Nonetheless Inheritance enhances readability and extensively shortens code.
+
+Encapsulation is basically object wrapping objects,mostly....enabling Objects that have objects
+as properties to be well represented.But what if a method changes in the defintion of the 
+property?..and the change isnt reflected in the Object wrapping such property?...The Code Breaks.
+
+
+Polymorphism allows generalisation of Objects from the same hierachy
+e.g A Manager,a Cleaner, A clerk are ALL PERSONS...and that's a good thing.
+But type safety comes into play...if i forcefully coerce an upcast or downcast thats illegal
+the code might fail at runtime
+
+
+Thanks,Daniel.
+
